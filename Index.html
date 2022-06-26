@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+    <title>Bol Creation</title>
+  </head>
+  <body>
+    <section id="overlay">
+      <marquee> <img src="lynixinc.png" alt="Lynix logo" id="logo"></marquee>
+      <hr>
+      <hr>
+      <form action="submission.html" method="POST">
+				<h1>Create a Bol asistant!</h1>
+        <section class="script">
+          <label for="script">Describe your Bol very descriptively</label>
+    			<input type="text" name="Describe="Describe">
+        </section>
+        <hr>
+        <hr>
+        
+        <section class="bolies">
+          <label for="amount">How many Bols would you like?</label>
+          <input type="number" name="amount" id="amount">
+        </section>
+        <hr>
+        <hr>
+        
+        <section class="height">
+          <label for="doneness">How tall do you want your Bol?</label>
+          <br>
+          <span>Midget Short:(</span>
+          <input type="range" name="heightness" id="heightness" value="3" min="1" max="8">
+          <span>Tumor Tall:)</span>
+        </section>
+        <hr>
+        <hr>
+        
+        <section class="hairstyles">
+          <span>What type of hairstyle do you want?</span>
+          <br>
+          <input type="checkbox" name="hairstyle" id="buzz cut" value="buzz cut">
+          <label for="Buzz Cut">Buzz Cut</label>
+          <input type="checkbox" name="hairstyle" id="temp fade" value="temp fade">
+          <label for="temp fade">Temp Fade</label>
+          <input type="checkbox" name="hairstyle" id="Baldy" value="Baldy">
+          <label for="Baldy">Baldy</label>
+          <input type="checkbox" name="hairstyle" id="dreads" value="dreads">
+          <label for="dreads">Dreads</label>
+          <input type="checkbox" name="Cancer Head" id="Cancer Head" value="Cancer Head">
+          <label for="Cancer Head">Cancer Head</label>
+        </section>
+        <hr>
+        <hr>
+        
+        <section class="lol">
+          <span>Is the Tesla Model X the best SUV?</span>
+          <br>
+          <input type="radio" name="lol" id="yes" value="yes">
+          <label for="yes">Yes</label>
+          <input type="radio" name="lol" id="no" value="yes">
+          <label for="no">No</label>
+        </section>
+        <hr>
+        <hr>
+       
+        <section class="Outfit type">
+          <label for="Outfit type">What type of outfit would you like?</label>
+          <select name="Outfit" id="Outfit">
+            <option value="adidas!">Adidas!</option>
+            <option value="Vans">Vans</option>
+            <option value="Crocs">Crocs</option>
+            <option value="kirby design">kirby design</option>
+          </select>
+        </section>
+        <hr>
+        <hr>
+        
+        <section class="Tesla Model">
+          <label for="model">What transportation will your Bol have?</label>
+          <input list="models" id="model" name="model">
+          <datalist id="models">
+            <option value="Tesla Model X"></option>
+            <option value="Tesla Model Y"></option>
+            <option value="Bugatti Chiron"></option>
+          </datalist>
+        </section>
+        <hr>
+        <section class="extra-info">
+          <label for="extra">Anything you would like to recommend to your Bol?</label>
+          <br>
+          <textarea id="extra" name="extra" rows="3" cols="40"></textarea>
+        </section>
+        <section class="submission">
+          <input type="submit" value="Submit">
+        </section>
+      </form>
+    </section>
+  </body>
+</html>
